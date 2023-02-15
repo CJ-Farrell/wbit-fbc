@@ -11,11 +11,15 @@ imp_recipe_prepped <- readRDS("prepped_imputation_recipe.rds")# Recipe for data 
 xgb.model <-xgb.load("xgb_model")  # Import model
 
 # Data preprocessing ---------------------------
+new_data <- new_data %>% # confirm have correct parameters
+  select(male, age, current_hb, current_wcc, current_plt, current_rcc, current_hct, current_mcv, current_mch, 
+         current_rdw, current_lym, current_eos, current_mpv, current_pdw, last_hb, last_wcc, last_plt, last_rcc,
+         last_hct, last_mcv, last_mch, last_rdw, last_lym, last_eos, last_mpv, last_pdw)
 apply(new_data, 2,  sum_na) # Confirm have no missing values for 'male' or 'age' 
 new_data_imp <- imp_recipe_prepped %>% bake(new_data = new_data) # Perform mean imputation for missing values among the other parameters
 apply(new_data_imp, 2,  sum_na) %>% sum # Confirm there are zero missing values after imputation
 
-# Now there are imputate values for the current and previous results, calculate absolute and percentage delta values
+# Now there are imputed values for the current and previous results, calculate absolute and percentage delta values
 new_data_imp <- new_data_imp %>% 
   mutate(
     hb_abs = current_hb - last_hb,
