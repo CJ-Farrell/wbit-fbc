@@ -36,7 +36,7 @@ The following inputs, all formatted as numeric values, are used by the model:
 - 'current_lym': lymphocyte count (10^9^/L) in current sample
 - 'current_eos': eosinophil count (10^9^/L) in current sample
 - 'current_mpv': mean platelet volume (fL) in current sample
-- 'current_plt': platelet distribution width (%) in current sample
+- 'current_pdw': platelet distribution width (%) in current sample
 - 'last_hb': hemoglobin (units: g/L) result in previous sample 
 - 'last_wcc': white cell count (10^9^/L) in previous sample
 - 'last_plt': platelet count (10^9^/L) in previous sample
@@ -48,7 +48,7 @@ The following inputs, all formatted as numeric values, are used by the model:
 - 'last_lym': lymphocyte count (10^9^/L) in previous sample
 - 'last_eos': eosinophil count (10^9^/L) in previous sample
 - 'last_mpv': mean platelet volume (fL) in previous sample
-- 'last_plt': platelet distribution width (%) in previous sample
+- 'last_pdw': platelet distribution width (%) in previous sample
 
 ### Preprocessing
 
