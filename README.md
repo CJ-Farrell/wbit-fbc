@@ -26,27 +26,27 @@ The following inputs, all formatted as numeric values, are used by the model:
 - 'male': 1 if patient is male, 0 if patient is female
 - 'age': patient age in years
 - 'current_hb': hemoglobin (units: g/L) result in current sample 
-- 'current_wcc': white cell count (10<sup>9</sup?/L) in current sample
-- 'current_plt': platelet count (10^9^/L) in current sample
-- 'current_rcc': red cell count (10^12^/L) in current sample
+- 'current_wcc': white cell count (10<sup>9</sup>/L) in current sample
+- 'current_plt': platelet count (10<sup>9</sup>/L) in current sample
+- 'current_rcc': red cell count (10<sup>12</sup>/L) in current sample
 - 'current_hct': hematocrit (L/L) in current sample
 - 'current_mcv': mean cell volume (fL) in current sample
 - 'current_mch': mean cell hemoglobin (pg) in current sample
 - 'current_rdw': red cell distribution width (%) in current sample
-- 'current_lym': lymphocyte count (10^9^/L) in current sample
-- 'current_eos': eosinophil count (10^9^/L) in current sample
+- 'current_lym': lymphocyte count (10<sup>9</sup>/L) in current sample
+- 'current_eos': eosinophil count (10<sup>9</sup>/L) in current sample
 - 'current_mpv': mean platelet volume (fL) in current sample
 - 'current_pdw': platelet distribution width (%) in current sample
 - 'last_hb': hemoglobin (units: g/L) result in previous sample 
-- 'last_wcc': white cell count (10^9^/L) in previous sample
-- 'last_plt': platelet count (10^9^/L) in previous sample
-- 'last_rcc': red cell count (10^12^/L) in previous sample
+- 'last_wcc': white cell count (10<sup>9</sup>/L) in previous sample
+- 'last_plt': platelet count (10<sup>9</sup>/L) in previous sample
+- 'last_rcc': red cell count (10<sup>12</sup>/L) in previous sample
 - 'last_hct': hematocrit (L/L) in previous sample
 - 'last_mcv': mean cell volume (fL) in previous sample
 - 'last_mch': mean cell hemoglobin (pg) in previous sample
 - 'last_rdw': red cell distribution width (%) in previous sample
-- 'last_lym': lymphocyte count (10^9^/L) in previous sample
-- 'last_eos': eosinophil count (10^9^/L) in previous sample
+- 'last_lym': lymphocyte count (10<sup>9</sup>/L) in previous sample
+- 'last_eos': eosinophil count (10<sup>9</sup>/L) in previous sample
 - 'last_mpv': mean platelet volume (fL) in previous sample
 - 'last_pdw': platelet distribution width (%) in previous sample
 
