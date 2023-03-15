@@ -26,7 +26,7 @@ The following inputs, all formatted as numeric values, are used by the model:
 - 'male': 1 if patient is male, 0 if patient is female
 - 'age': patient age in years
 - 'current_hb': hemoglobin (units: g/L) result in current sample 
-- 'current_wcc': white cell count (10^9^/L) in current sample
+- 'current_wcc': white cell count (10<sup>9</sup?/L) in current sample
 - 'current_plt': platelet count (10^9^/L) in current sample
 - 'current_rcc': red cell count (10^12^/L) in current sample
 - 'current_hct': hematocrit (L/L) in current sample
